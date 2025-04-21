@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Google Meet Notification Blocker",
+  "version": "1.0",
+  "description": "Bloqueia os pop-ups de notificação de chat no Google Meet",
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": ["https://meet.google.com/*"],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "48": "/images/no-popup-48.png",
+      "96": "/images/no-popup-96.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://meet.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "48": "/images/no-popup-48.png",
+    "96": "/images/no-popup-96.png"
+  }
+}
