@@ -22,7 +22,7 @@ _GIF mostrando o funcionamento completo da extensão_
 ## Instalação Local
 
 ```bash
-git clone https://github.com/lucaxjordo/google-meet-notification-blocker.git
+git clone https://github.com/lucaxjordo/meet-notification-blocker.git
 ```
 
 1. Acesse `chrome://extensions/` no Chrome
