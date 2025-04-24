@@ -22,19 +22,20 @@ _GIF mostrando o funcionamento completo da extensão_
 ## Instalação Local
 
 ```bash
-git clone https://github.com/lucaxjordo/meet-notification-blocker.git
+git clone https://github.com/lucaxjordo/meet-popup-blocker.git
 ```
 
 1. Acesse `chrome://extensions/` no Chrome
 2. Ative o **Modo Desenvolvedor** no canto superior direito
 3. Clique em **Carregar sem compactação** e selecione a pasta do projeto
+
    ![Chrome extensions upload](images/chrome-upload.gif)
    _GIF mostrando o processo de instalação da extensão no chrome extesnions_
 
 ## Como Utilizar
 
-1. Entre em uma reunião no Google Meet
-2. Localize o ícone da extensão na barra de ferramentas do Chrome:  
+1. Entre em uma reunião no **Google Meet**
+2. **Localize o ícone** da extensão na barra de ferramentas do Chrome:  
    <img src="images/no-popup-48.png" width="16" alt="Ícone da extensão">
 3. Controle as notificações:
    - **Ligado (Azul):** Notificações de chat ficam ocultas
@@ -42,10 +43,14 @@ git clone https://github.com/lucaxjordo/meet-notification-blocker.git
    - **Desligado (Cinza):** Notificações aparecem normalmente
      - Status: _"Notificações visíveis"_ (cinza)
 
+## Nota
+
+A solução foi desenvolvida e testada no navegador **Google Chrome**, mas deve funcionar também em outros navegadores baseados em **Chromium**, como o **Brave**.
+
 ## Desenvolvedor
 
 ## [![LinkedIn](https://img.shields.io/badge/LinkedIn:-Lucas_Oliveira-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/lucasxoliva/)
 
 ## Contribuições
 
-- Este projeto é de código aberto e aceita contribuições. Sinta-se à vontade para fazer um fork, abrir issues ou enviar pull requests.
+- Este projeto é de código aberto e aceita contribuições. Sinta-se à vontade para fazer um **fork**, abrir **issues** ou enviar **pull requests**.
